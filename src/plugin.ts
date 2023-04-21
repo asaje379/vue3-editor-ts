@@ -3,7 +3,7 @@
  *   This file is plugin stub for main.js
  */
 
-import plugin, { Quill } from './index';
+import { Quill, plugin } from './index';
 const { version } = plugin;
 
 console.log('TCL: plugin', plugin);

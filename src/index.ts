@@ -24,6 +24,8 @@ const VPlugin: any = {
   VueEditor,
 };
 
+export const plugin = VPlugin;
+
 // Auto-install when vue is found (eg. in browser via <script> tag)
 // let GlobalVue = null;
 // if (typeof window !== "undefined") {
@@ -35,7 +37,6 @@ const VPlugin: any = {
 //   GlobalVue.use(VPlugin);
 // }
 
-export default VPlugin;
 export { VueEditor, Quill };
 
 /*************************************************/
