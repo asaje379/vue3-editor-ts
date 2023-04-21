@@ -1,6 +1,6 @@
 # Vue3Editor
 
-> An easy-to-use but yet powerful and customizable rich text editor powered by Quill.js and Vue.js
+> An easy-to-use but yet powerful and customizable rich text editor powered by Quill.js, Vue.js and Typescript
 
 > This project is built on `vue2-editor`, please see its doc.
 
