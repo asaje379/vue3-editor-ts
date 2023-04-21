@@ -8,11 +8,25 @@
 
 ## What's different
 
+**Installation**
+
+```bash
+npm install vue3-editor-ts
+```
+
+or
+
+```bash
+yarn add vue3-editor-ts
+```
+
+**Importation**
+
 ```ts
 import { VueEditor } from 'vue3-editor-ts'; // import VueEditor form 'vue3-editor-ts' instead of vue3-editor
 import 'vue3-editor-ts/style.css'; // Load the css
 ```
 
-and that'all
+and that'all. Everything else is the same
 
 😇 Enjoy!
