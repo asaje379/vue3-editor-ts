@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-  import { ExtendedQuill as Quill } from '../helpers/quill';
+  import Quill from 'quill';
   import defaultToolbar from '../helpers/default-toolbar.js';
   import mergeDeep from '../helpers/merge-deep.js';
   import MarkdownShortcuts from '../helpers/markdown-shortcuts.js';
@@ -180,9 +180,6 @@
       },
       getWordCount: () =>
         quill.value.container.querySelector('.ql-editor').innerText.length,
-    };
-    Quill.getHTML = () => {
-      return quill.value.container.querySelector('.ql-editor').innerHTML;
     };
   };
 
