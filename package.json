@@ -26,12 +26,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-editor.umd.js",
-  "module": "./dist/vue-editor.es.js",
+  "main": "./dist/vue3-editor-ts.umd.js",
+  "module": "./dist/vue3-editor-ts.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-editor.es.js",
-      "require": "./dist/vue-editor.umd.js"
+      "import": "./dist/vue3-editor-ts.es.js",
+      "require": "./dist/vue3-editor-ts.umd.js"
     },
     "./style.css": "./dist/style.css"
   },

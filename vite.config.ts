@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'vue-editor',
-      fileName: (format) => `vue-editor.${format}.js`,
+      name: 'vue3-editor-ts',
+      fileName: (format) => `vue3-editor-ts.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
