@@ -35,5 +35,5 @@
     },
     "./style.css": "./dist/style.css"
   },
-  "types": "./dist/types/index.d.ts"
+  "types": "./dist/index.d.ts"
 }
