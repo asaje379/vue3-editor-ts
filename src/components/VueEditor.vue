@@ -77,8 +77,8 @@
   watch(
     () => props.modelValue,
     (val: any) => {
-      if (val != quill.value.root.innerHTML && !quill.value.hasFocus()) {
-        quill.root.innerHTML = val;
+      if (val != quill.value.root.innerHTML) {
+        quill.value.root.innerHTML = val;
       }
     },
   );
